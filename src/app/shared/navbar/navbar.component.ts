@@ -11,5 +11,8 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
   }
+  loginModal(){
+    console.log("bchdbv");
+  }
 
 }

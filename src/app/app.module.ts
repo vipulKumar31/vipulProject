@@ -5,16 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CardComponent } from './shared/card/card.component';
+import { LoginPageComponent } from './login/login-page/login-page.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+       
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
